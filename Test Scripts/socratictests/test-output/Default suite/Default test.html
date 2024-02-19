@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 03 18:46:45 PST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>507 seconds (507468 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Tests.testexpo2()'><b>testexpo2</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear1()'><b>testLinear1</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>28</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly2()'><b>testpoly2</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>19</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear3()'><b>testLinear3</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear6()'><b>testLinear6</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic5()'><b>testquadratic5</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear4()'><b>testLinear4</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear7()'><b>testLinear7</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo7()'><b>testexpo7</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly7()'><b>testpoly7</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic4()'><b>testquadratic4</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>15</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo6()'><b>testexpo6</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo5()'><b>testexpo5</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic2()'><b>testquadratic2</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly3()'><b>testpoly3</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic6()'><b>testquadratic6</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic3()'><b>testquadratic3</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo4()'><b>testexpo4</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly6()'><b>testpoly6</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo3()'><b>testexpo3</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic1()'><b>testquadratic1</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly1()'><b>testpoly1</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear2()'><b>testLinear2</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testexpo1()'><b>testexpo1</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testquadratic7()'><b>testquadratic7</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>16</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly5()'><b>testpoly5</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testpoly4()'><b>testpoly4</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>18</td>
+<td>tests.Tests@60bd273d</td></tr>
+<tr>
+<td title='tests.Tests.testLinear5()'><b>testLinear5</b><br>Test class: tests.Tests</td>
+<td></td>
+<td>17</td>
+<td>tests.Tests@60bd273d</td></tr>
+</table><p>
+</body>
+</html>

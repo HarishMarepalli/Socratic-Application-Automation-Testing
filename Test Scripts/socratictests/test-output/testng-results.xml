@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-03T18:46:45 PST" name="Default suite" finished-at="2023-12-03T18:55:13 PST" duration-ms="507468">
+    <groups>
+    </groups>
+    <test started-at="2023-12-03T18:46:45 PST" name="Default test" finished-at="2023-12-03T18:55:13 PST" duration-ms="507468">
+      <class name="tests.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:46:45 PST" name="setup" finished-at="2023-12-03T18:46:57 PST" duration-ms="11240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLinear1()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:46:57 PST" name="testLinear1" finished-at="2023-12-03T18:47:25 PST" duration-ms="28380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear1 -->
+        <test-method signature="testLinear2()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:47:25 PST" name="testLinear2" finished-at="2023-12-03T18:47:42 PST" duration-ms="17328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear2 -->
+        <test-method signature="testLinear3()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:47:42 PST" name="testLinear3" finished-at="2023-12-03T18:48:00 PST" duration-ms="17508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear3 -->
+        <test-method signature="testLinear4()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:48:00 PST" name="testLinear4" finished-at="2023-12-03T18:48:18 PST" duration-ms="18254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear4 -->
+        <test-method signature="testLinear5()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:48:18 PST" name="testLinear5" finished-at="2023-12-03T18:48:35 PST" duration-ms="17214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear5 -->
+        <test-method signature="testLinear6()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:48:35 PST" name="testLinear6" finished-at="2023-12-03T18:48:52 PST" duration-ms="16549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear6 -->
+        <test-method signature="testLinear7()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:48:52 PST" name="testLinear7" finished-at="2023-12-03T18:49:10 PST" duration-ms="18132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinear7 -->
+        <test-method signature="testexpo1()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:49:10 PST" name="testexpo1" finished-at="2023-12-03T18:49:27 PST" duration-ms="16621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo1 -->
+        <test-method signature="testexpo2()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:49:27 PST" name="testexpo2" finished-at="2023-12-03T18:49:44 PST" duration-ms="16889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo2 -->
+        <test-method signature="testexpo3()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:49:44 PST" name="testexpo3" finished-at="2023-12-03T18:50:00 PST" duration-ms="16338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo3 -->
+        <test-method signature="testexpo4()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:50:00 PST" name="testexpo4" finished-at="2023-12-03T18:50:18 PST" duration-ms="17887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo4 -->
+        <test-method signature="testexpo5()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:50:18 PST" name="testexpo5" finished-at="2023-12-03T18:50:34 PST" duration-ms="16667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo5 -->
+        <test-method signature="testexpo6()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:50:34 PST" name="testexpo6" finished-at="2023-12-03T18:50:52 PST" duration-ms="17618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo6 -->
+        <test-method signature="testexpo7()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:50:52 PST" name="testexpo7" finished-at="2023-12-03T18:51:10 PST" duration-ms="18355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexpo7 -->
+        <test-method signature="testpoly1()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:51:10 PST" name="testpoly1" finished-at="2023-12-03T18:51:29 PST" duration-ms="18681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly1 -->
+        <test-method signature="testpoly2()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:51:29 PST" name="testpoly2" finished-at="2023-12-03T18:51:48 PST" duration-ms="19027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly2 -->
+        <test-method signature="testpoly3()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:51:48 PST" name="testpoly3" finished-at="2023-12-03T18:52:06 PST" duration-ms="17681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly3 -->
+        <test-method signature="testpoly4()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:52:06 PST" name="testpoly4" finished-at="2023-12-03T18:52:24 PST" duration-ms="18083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly4 -->
+        <test-method signature="testpoly5()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:52:24 PST" name="testpoly5" finished-at="2023-12-03T18:52:41 PST" duration-ms="17081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly5 -->
+        <test-method signature="testpoly6()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:52:41 PST" name="testpoly6" finished-at="2023-12-03T18:52:58 PST" duration-ms="17257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly6 -->
+        <test-method signature="testpoly7()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:52:58 PST" name="testpoly7" finished-at="2023-12-03T18:53:17 PST" duration-ms="18764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpoly7 -->
+        <test-method signature="testquadratic1()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:53:17 PST" name="testquadratic1" finished-at="2023-12-03T18:53:35 PST" duration-ms="17668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic1 -->
+        <test-method signature="testquadratic2()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:53:35 PST" name="testquadratic2" finished-at="2023-12-03T18:53:51 PST" duration-ms="16509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic2 -->
+        <test-method signature="testquadratic3()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:53:51 PST" name="testquadratic3" finished-at="2023-12-03T18:54:07 PST" duration-ms="16223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic3 -->
+        <test-method signature="testquadratic4()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:54:07 PST" name="testquadratic4" finished-at="2023-12-03T18:54:23 PST" duration-ms="15846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic4 -->
+        <test-method signature="testquadratic5()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:54:23 PST" name="testquadratic5" finished-at="2023-12-03T18:54:40 PST" duration-ms="16292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic5 -->
+        <test-method signature="testquadratic6()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:54:40 PST" name="testquadratic6" finished-at="2023-12-03T18:54:56 PST" duration-ms="16574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic6 -->
+        <test-method signature="testquadratic7()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:54:56 PST" name="testquadratic7" finished-at="2023-12-03T18:55:13 PST" duration-ms="16464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testquadratic7 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.Tests@60bd273d]" started-at="2023-12-03T18:55:13 PST" name="teardown" finished-at="2023-12-03T18:55:13 PST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
